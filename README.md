@@ -25,4 +25,4 @@ Figyelembe vettünk különböző megszorítási kategóriákat:
 
 Mindegyik feltétel kötelező érvényű, tehát egyiknek sincs prioritása a másik felett. A megszorításokat egy fájlból olvashatjuk be, ennek szerkeszetét a későbbiekben tárgyaljuk.
 Amennyiben a feltételek nem teljesülnek, úgy tekintjük, hogy a feladatnak nincs megoldása.
-
+A megoldás c++ nyelven íródott. 
