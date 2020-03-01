@@ -53,7 +53,7 @@ ___
 The implemented program fulfills the following requirements:
 - [x] Use the command line arguments to take the task size (n) and the solution method (1, 2, or 3) used. 
 
-*Note:* our problem is too complex to take its size from the comman line, instead specify it in the input file with the constraints.
+*Note:* our problem is too complex to take its size from the command line, instead specify it in the input file with the constraints.
 
 - [x] The program outputs the number of steps taken to the standard output.
 
@@ -69,12 +69,12 @@ The problem we have chosen is a room allocation task where students are assigned
 We took into account different categories of constraints:
 * studio or apartment rooms
 * north or south facing rooms
-* who you want to live with
-* who you don't want to live with
+* whom you want to live with
+* whom you don't want to live with
 
 Each condition is binding, so no one has priority over the other. The constraints can be read from a file. If the conditions are not met, the task is considered to have no solution.
 
-**The code was written in C++ in [CodeBlocks](http://www.codeblocks.org/). It is highly recommended to be run in that IDE. It was tested in Visual Studio 2019, but for some reason it interprets the file structure differently, so the code does not execute properly.**
+**The code was written in C++ in [CodeBlocks](http://www.codeblocks.org/). It is highly recommended to be run in that IDE. It was tested in Visual Studio 2019, but for some reason, it interprets the file structure differently, so the code does not execute properly.**
 
 ### Results
 * Simple backtracking:
