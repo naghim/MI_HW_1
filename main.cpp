@@ -202,7 +202,7 @@ VAR MVR(const map<VAR, set<VAR>>& D_actual) {
 		return newHomie;
 	}
 	
-	for (const auto& mit : D_actual) return mit.first;
+	for (const auto& mit : D_actual) if (X[mit.first] == HOMELESS) return mit.first;
 	
 }
 
