@@ -30,8 +30,21 @@ Figyelembe vettünk különböző megszorítási kategóriákat:
 
 Mindegyik feltétel kötelező érvényű, tehát egyiknek sincs prioritása a másik felett. A megszorításokat egy fájlból olvashatjuk be, ennek szerkeszetét a későbbiekben tárgyaljuk.
 Amennyiben a feltételek nem teljesülnek, úgy tekintjük, hogy a feladatnak nincs megoldása.
+
 A megoldás c++ nyelven íródott.
 
+### Eredmények
+* Sima backtracking:
+Az algoritmus lefutott 142 lépéssel.
+Végrehajtási idő: 0.076 s
+
+* Backtracking + MVR + forward checking:
+Az algoritmus lefutott 134 lépéssel.
+Végrehajtási idő: 0.070 s
+
+* Backtracking + MVR + AC-3:
+Az algoritmus lefutott 128 lépéssel.
+Végrehajtási idő: 0.063 s
 ___
 ___
 
@@ -62,4 +75,17 @@ We took into account different categories of constraints:
 Each condition is binding, so no one has priority over the other. The constraints can be read from a file. If the conditions are not met, the task is considered to have no solution.
 
 The code was written in c++.
+
+### Results
+* Simple backtracking:
+Steps: 142.
+Execution time: 0.076 s
+
+* Backtracking + MVR + forward checking:
+Steps: 134.
+Execution time: 0.070 s
+
+* Backtracking + MVR + AC-3:
+Steps: 128
+Execution time: 0.063 s
 
