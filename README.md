@@ -2,17 +2,22 @@
 Mesterséges Intelligencia házi feladat #1
 _CSP - Constraint Satisfaction Problem_
 
+The __readme__ is also available in English [here](#task).
+
 ## Feladat
 ### Követelmények
 A kért követelmények közül a megvalósított program a következőket teljesíti:
 - [x] A program a parancssor argumentumain keresztül vegye át a feladat méretét(n) és a használt megoldási módszert(1, 2 vagy 3).
+
+*Megjegyzés:* A mi problémánk túlságosan is komplex ahhoz, hogy a parancssorról olvassa be a méretet, ehelyett a beolvasott fájlban lehet megadni a méreteket a megszorításokkal
+
 - [x] A program a standard kimenetre írja ki a backtrackingben történt értékadások számát.
 
 Az agrumentumlistában beadott érték szerint a következő módokban tudjon lefutni:
 - [x] nyersbacktracking
-- [x] backtracking + MVR + forwardchecking
+- [x] backtracking + MVR + forward checking
 - [x] backtracking + MVR + AC-3
-- [x] Mindhárom esetben az első megoldás megtalálásáig fusson a program.
+- [x] Mindhárom esetben az első megoldás megtalálásáig fusson a program. Feltéve, hogy létezik megoldás.
 
 ### Választott probléma
 Az általunk választott probléma egy szobabeosztási feladat, ahol meghatározott kritériumok alapján kell a diákokat egy bentlakásba beosztani. A folyósok és az épületek méretei megadhatóak, illetve a szobák típusa és a mennyiségük is. 
@@ -25,4 +30,36 @@ Figyelembe vettünk különböző megszorítási kategóriákat:
 
 Mindegyik feltétel kötelező érvényű, tehát egyiknek sincs prioritása a másik felett. A megszorításokat egy fájlból olvashatjuk be, ennek szerkeszetét a későbbiekben tárgyaljuk.
 Amennyiben a feltételek nem teljesülnek, úgy tekintjük, hogy a feladatnak nincs megoldása.
-A megoldás c++ nyelven íródott. 
+A megoldás c++ nyelven íródott.
+
+___
+___
+
+## Task 
+### Requirements
+The implemented program fulfills the following requirements:
+- [x] Use the command line arguments to take the task size (n) and the solution method (1, 2, or 3) used. 
+
+*Note:* our problem is too complex to take its size from the comman line, instead specify it in the input file with the constraints.
+
+- [x] The program outputs the number of steps taken to the standard output.
+
+Depending on the value entered, the code can run in the following ways:
+- [x] simple backtracking
+- [x] backtracking + MVR + forward checking
+- [x] backtracking + MVR + AC-3
+- [x] In all three cases, the program runs until the first solution is found. As long as the solution exists.
+
+### The Chosen Problem
+The problem we have chosen is a room allocation task where students are assigned to rooms in a dorm according to specific criteria. The dimensions of corridors and buildings can be specified, as well as the type and quantity of rooms.
+
+We took into account different categories of constraints:
+* studio or apartment rooms
+* north or south facing rooms
+* who you want to live with
+* who you don't want to live with
+
+Each condition is binding, so no one has priority over the other. The constraints can be read from a file. If the conditions are not met, the task is considered to have no solution. T
+
+he code was written in c++.
+
