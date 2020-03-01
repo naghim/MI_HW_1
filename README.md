@@ -59,7 +59,7 @@ We took into account different categories of constraints:
 * who you want to live with
 * who you don't want to live with
 
-Each condition is binding, so no one has priority over the other. The constraints can be read from a file. If the conditions are not met, the task is considered to have no solution. T
+Each condition is binding, so no one has priority over the other. The constraints can be read from a file. If the conditions are not met, the task is considered to have no solution.
 
-he code was written in c++.
+The code was written in c++.
 
