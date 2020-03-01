@@ -31,7 +31,7 @@ Figyelembe vettünk különböző megszorítási kategóriákat:
 Mindegyik feltétel kötelező érvényű, tehát egyiknek sincs prioritása a másik felett. A megszorításokat egy fájlból olvashatjuk be, ennek szerkeszetét a későbbiekben tárgyaljuk.
 Amennyiben a feltételek nem teljesülnek, úgy tekintjük, hogy a feladatnak nincs megoldása.
 
-A megoldás c++ nyelven íródott.
+**A megoldás c++ nyelven íródott, [CodeBlocks](http://www.codeblocks.org/) környezetben. Ajánlatos abban futtatni. Tesztelve volt Visual Studio 2019-ben is, de valamiért ott másképp értelemzi a fájl struktúráját, így helytelenül fut le.**
 
 ### Eredmények
 * Sima backtracking:
@@ -74,7 +74,7 @@ We took into account different categories of constraints:
 
 Each condition is binding, so no one has priority over the other. The constraints can be read from a file. If the conditions are not met, the task is considered to have no solution.
 
-The code was written in c++.
+**The code was written in C++ in [CodeBlocks](http://www.codeblocks.org/). It is highly recommended to be run in that IDE. It was tested in Visual Studio 2019, but for some reason it interprets the file structure differently, so the code does not execute properly.**
 
 ### Results
 * Simple backtracking:
