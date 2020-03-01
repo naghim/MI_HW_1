@@ -14,7 +14,7 @@ A kért követelmények közül a megvalósított program a következőket telje
 - [x] A program a standard kimenetre írja ki a backtrackingben történt értékadások számát.
 
 Az agrumentumlistában beadott érték szerint a következő módokban tudjon lefutni:
-- [x] nyersbacktracking
+- [x] nyers backtracking
 - [x] backtracking + MVR + forward checking
 - [x] backtracking + MVR + AC-3
 - [x] Mindhárom esetben az első megoldás megtalálásáig fusson a program. Feltéve, hogy létezik megoldás.
