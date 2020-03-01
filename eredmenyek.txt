@@ -1,0 +1,57 @@
+Megoldasi modszer: 1
+Emberek szama: 30
+Szobak szama: 10
+
+A szobabeosztas:
+0. szoba  ( 0 2 5 )
+1. szoba  ( 1 3 4 )
+2. szoba  ( 7 8 9 )
+3. szoba  ( 6 12 13 )
+4. szoba  ( 10 11 16 )
+5. szoba  ( 14 15 17 )
+6. szoba  ( 19 20 21 )
+7. szoba  ( 18 22 24 )
+8. szoba  ( 23 25 26 )
+9. szoba  ( 27 28 29 )
+Az algoritmus lefutott 142 lepessel.
+
+Vegrehajtasi ido: 0.076 s
+
+Megoldasi modszer: 2
+Emberek szama: 30
+Szobak szama: 10
+
+A szobabeosztas:
+0. szoba  ( 2 7 8 )
+1. szoba  ( 0 1 4 )
+2. szoba  ( 5 9 11 )
+3. szoba  ( 6 14 15 )
+4. szoba  ( 10 16 20 )
+5. szoba  ( 3 12 18 )
+6. szoba  ( 17 23 24 )
+7. szoba  ( 13 21 22 )
+8. szoba  ( 19 25 26 )
+9. szoba  ( 27 28 29 )
+Az algoritmus lefutott 134 lepessel.
+
+Vegrehajtasi ido: 0.070 s
+
+
+Megoldasi modszer: 3
+Emberek szama: 30
+Szobak szama: 10
+
+A szobabeosztas:
+0. szoba  ( 2 6 10 )
+1. szoba  ( 1 3 4 )
+2. szoba  ( 7 8 9 )
+3. szoba  ( 0 5 18 )
+4. szoba  ( 11 16 20 )
+5. szoba  ( 13 14 15 )
+6. szoba  ( 12 17 23 )
+7. szoba  ( 19 21 22 )
+8. szoba  ( 24 25 26 )
+9. szoba  ( 27 28 29 )
+Az algoritmus lefutott 128 lepessel.
+
+Vegrehajtasi ido: 0.063 s
